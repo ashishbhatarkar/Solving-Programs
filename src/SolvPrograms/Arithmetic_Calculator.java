@@ -20,11 +20,19 @@ public class Arithmetic_Calculator {
 		
 		case "/" :
 			result = fc1/fc2;
-			System.out.println(fc1 + "/" + fc2 + "=" + result );
+			System.out.println(fc1 + " / " + fc2 + " = " + result );
 			
 		case "*" :
 			result = fc1*fc2;
-			System.out.println(fc1 + "*" + fc2 + "=" + result );
+			System.out.println(fc1 + " * " + fc2 + " = " + result );
+			
+		case "+" :
+			result = fc1+fc2;
+			System.out.println(fc1 + " + " + fc2 + " = " + result );
+			
+		case "-" :
+			result = fc1-fc2;
+			System.out.println(fc1 + " - " + fc2 + " = " + result );
 		
 		
 		
