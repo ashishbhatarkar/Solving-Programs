@@ -11,35 +11,46 @@ public class Arithmetic_Calculator {
 		int fc1 = sc.nextInt();
 		int fc2 = sc.nextInt();
 		
-		System.out.println("Enter Any one Calculation Method( / , * , + , - )");
 		
-		String cls = sc.nextLine();
-		int result = 0;
+		System.out.println("Enter Any one Calculation Method( / , * , + , - )");
+		String cls = sc.next();
+		
+		System.out.println("You use This Operator " + cls);
+		
+		int result;
 		
 		switch(cls) {
 		
-		case "/" :
+		case "/" : {
 			result = fc1/fc2;
 			System.out.println(fc1 + " / " + fc2 + " = " + result );
+			break;
+		}
 			
-		case "*" :
+		case "*" : {
 			result = fc1*fc2;
 			System.out.println(fc1 + " * " + fc2 + " = " + result );
+			break;
+		}
 			
-		case "+" :
+		case "+" : {
 			result = fc1+fc2;
 			System.out.println(fc1 + " + " + fc2 + " = " + result );
+			break;
+		}
 			
-		case "-" :
+		case "-" : {
 			result = fc1-fc2;
 			System.out.println(fc1 + " - " + fc2 + " = " + result );
+			break;
+		}
 		
-		
-		
+		default :
+			System.out.println("Invalid input");
+			
 		
 		}
 		
-
 	}
 
 }
