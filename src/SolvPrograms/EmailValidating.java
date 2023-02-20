@@ -58,7 +58,7 @@ public class EmailValidating {
 		if(lststr.contains(stt))
 			System.out.println(stt + " Email Are Existed ");
 		else
-			System.out.println(stt + "This Email are not Existed");
+			System.out.println(stt + " This Email are not Existed");
 			break;
 			}
 		
